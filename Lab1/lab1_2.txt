@@ -1,0 +1,11 @@
+a) find -maxdepth 1 -type f -name ".*"
+b) quoting was not needed
+so either:
+cat *notes?.txt
+or:
+cat '*notes?.txt'
+c) mv 'hello$world.txt' greetings.txt
+d) ls data | grep -v "temp"
+e) echo `ls *.sh` > scripts_list.txt
+
+
